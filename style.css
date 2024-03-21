@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    color: black;
+    margin: 0;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  .split {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    overflow-y: auto;
+  }
+  
+  .split.left {
+    left: 0;
+    width: 30%;
+    background-color: red;
+    color: white;
+  }
+  
+  .split.right {
+    right: 0;
+    width: 70%;
+    background-color: white;
+    color: black;
+    position: fixed;
+  }
+  
+  .division {
+    height: 50px;
+  }
+  
